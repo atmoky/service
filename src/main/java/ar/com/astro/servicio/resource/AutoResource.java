@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AutoResource {
 
-
+    //Mejorado
     //Cuando envien una paticion por http GET al servicio se invoca este servicio
     @GetMapping(path ="car/{id}",produces= "application/json")
     public AutoResponse getAutoById(@PathVariable(name ="id") Long id) {
